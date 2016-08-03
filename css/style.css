@@ -3,8 +3,70 @@
   margin: 0;
   text-align: center;
   font-family: 'Oswald';
+  color: #353535;
 }
 
 #title {
   height: 200px;
 }
+
+.about {
+  height: 200px;
+  margin: 20px;
+}
+
+.project-line {
+  height: 100px;
+}
+
+.bubble {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 40px 35px;
+  border-radius: 2px solid #353535;
+  display: inline-table;
+}
+
+hr {
+  position: relative;
+  top: 94px;
+  z-index: -1;
+  background-color: #353535;
+  height: 2px;
+}
+
+.hovering {
+  height: 300px;
+  width: 300px;
+  border-radius: 8%;
+  vertical-align: middle;
+  display: inline-table;
+}
+
+.proj1{
+  background-image: url('http://netdna.webdesignerdepot.com/uploads/2012/11/code.jpg');
+}
+.proj2{
+  background-image: url('http://netdna.webdesignerdepot.com/uploads/2012/11/code.jpg');
+}
+.proj3{
+  background-image: url('http://netdna.webdesignerdepot.com/uploads/2012/11/code.jpg');
+}
+.proj4{
+  background-image: url('http://netdna.webdesignerdepot.com/uploads/2012/11/code.jpg');
+}
+.proj5{
+  background-image: url('http://netdna.webdesignerdepot.com/uploads/2012/11/code.jpg');
+}
+
+.bubble p {
+  display:none;
+  color: white;
+}
+
+.bubble h3 {
+  display:none;
+  color: white;
+}
+
