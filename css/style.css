@@ -24,8 +24,11 @@
   width: 100px;
   border-radius: 50%;
   margin: 40px 35px;
-  border-radius: 2px solid #353535;
+  border: 1px solid #353535;
   display: inline-table;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 hr {
@@ -40,8 +43,11 @@ hr {
   height: 300px;
   width: 300px;
   border-radius: 8%;
+  border: 1px solid #353535;
   vertical-align: middle;
   display: inline-table;
+  background-size: cover;
+  background-position: center;
 }
 
 .proj1{
@@ -62,11 +68,43 @@ hr {
 
 .bubble p {
   display:none;
-  color: white;
 }
 
 .bubble h3 {
   display:none;
+}
+
+.hovering p {
   color: white;
+  position: relative;
+  top: 200px;
+}
+
+.hovering h3 {
+  color: white;
+  position: relative;
+  top: 200px;
+}
+
+.proj3 h3 {
+  color: black;
+}
+
+.proj3 p {
+  color: black;
+}
+
+.proj4 h3 {
+  color: black;
+}
+
+.proj4 p {
+  color: black;
+}
+
+
+
+#projectdiv {
+  margin: 0 auto 60px auto;
 }
 
